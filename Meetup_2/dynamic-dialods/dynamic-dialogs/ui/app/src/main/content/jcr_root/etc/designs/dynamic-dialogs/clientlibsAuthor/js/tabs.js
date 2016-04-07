@@ -53,6 +53,13 @@
         }
     };
 
+    /**
+     * Shows tabs.
+     */
+    Tabs.showTabs = function(field) {
+        Tabs.manageTabs(field.findParentByType(Tabs.tabPanelName), field.getValue());
+    };
+
     if(module){
         module.Tabs = Tabs;
     } else{
