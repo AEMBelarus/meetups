@@ -3,6 +3,9 @@
     jcr:primaryType="cq:Dialog"
     warnIfModified="{Boolean}false"
     xtype="dialog">
+    <listeners
+        jcr:primaryType="nt:unstructured"
+        beforeshow="function(dialog){DD.Tabs.manageTabs(dialog.items.get(0));}"/>
     <items
         jcr:primaryType="cq:Widget"
         xtype="tabpanel">
