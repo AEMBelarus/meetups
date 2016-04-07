@@ -13,32 +13,32 @@ Demo
 
 To view the Demo one need to make next steps:
 
-step init:\s\s
-``git checkout init``\s\s
-``mvn -PautoInstallPackage,full clean install``\s\s
+step init:<br />
+``git checkout init``<br />
+``mvn -PautoInstallPackage,full clean install``<br />
 
-step 1:\s\s
-``git checkout step1``\s\s
-``mvn -PautoInstallPackage clean install``\s\s
+step 1:<br />
+``git checkout step1``<br />
+``mvn -PautoInstallPackage clean install``<br />
 
-step 2:\s\s
-``git checkout step2``\s\s
-``mvn -PautoInstallPackage clean install``\s\s
+step 2:<br />
+``git checkout step2``<br />
+``mvn -PautoInstallPackage clean install``<br />
 
-step 3:\s\s
-``git checkout step3``\s\s
-``mvn -PautoInstallPackage clean install``\s\s
+step 3:<br />
+``git checkout step3``<br />
+``mvn -PautoInstallPackage clean install``<br />
 
-step 4:\s\s
-``git checkout step4``\s\s
-``mvn -PautoInstallPackage clean install``\s\s
+step 4:<br />
+``git checkout step4``<br />
+``mvn -PautoInstallPackage clean install``<br />
 
-step 5:\s\s
-``git checkout step5``\s\s
-``mvn -PautoInstallPackage clean install``\s\s
+step 5:<br />
+``git checkout step5``<br />
+``mvn -PautoInstallPackage clean install``<br />
 
-step done:\s\s
-``git checkout done``\s\s
-``mvn -PautoInstallPackage clean install``\s\s
+step done:<br />
+``git checkout done``<br />
+``mvn -PautoInstallPackage clean install``<br />
 
 
