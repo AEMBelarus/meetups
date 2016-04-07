@@ -45,6 +45,9 @@
             <xTab1
                 jcr:primaryType="cq:Panel"
                 title="x Tab 1">
+                <listeners
+                    jcr:primaryType="nt:unstructured"
+                    render="function(tab){DD.Tabs.cacheFieldsPermissions(tab);}"/>
                 <items jcr:primaryType="cq:WidgetCollection">
                     <text1
                         jcr:primaryType="cq:Widget"
@@ -63,6 +66,9 @@
             <xTab2
                     jcr:primaryType="cq:Panel"
                     title="x Tab 2">
+                <listeners
+                        jcr:primaryType="nt:unstructured"
+                        render="function(tab){DD.Tabs.cacheFieldsPermissions(tab);}"/>
                 <items jcr:primaryType="cq:WidgetCollection">
                     <text1
                             jcr:primaryType="cq:Widget"
@@ -81,6 +87,9 @@
             <xTab3
                     jcr:primaryType="cq:Panel"
                     title="x Tab 3">
+                <listeners
+                        jcr:primaryType="nt:unstructured"
+                        render="function(tab){DD.Tabs.cacheFieldsPermissions(tab);}"/>
                 <items jcr:primaryType="cq:WidgetCollection">
                     <text1
                             jcr:primaryType="cq:Widget"
@@ -99,6 +108,9 @@
             <xTab4
                     jcr:primaryType="cq:Panel"
                     title="x Tab 4">
+                <listeners
+                        jcr:primaryType="nt:unstructured"
+                        render="function(tab){DD.Tabs.cacheFieldsPermissions(tab);}"/>
                 <items jcr:primaryType="cq:WidgetCollection">
                     <text1
                             jcr:primaryType="cq:Widget"
@@ -117,6 +129,9 @@
             <yTab1
                     jcr:primaryType="cq:Panel"
                     title="y Tab 1">
+                <listeners
+                        jcr:primaryType="nt:unstructured"
+                        render="function(tab){DD.Tabs.cacheFieldsPermissions(tab);}"/>
                 <items jcr:primaryType="cq:WidgetCollection">
                     <text1
                             jcr:primaryType="cq:Widget"
@@ -135,6 +150,9 @@
             <yTab2
                     jcr:primaryType="cq:Panel"
                     title="y Tab 2">
+                <listeners
+                        jcr:primaryType="nt:unstructured"
+                        render="function(tab){DD.Tabs.cacheFieldsPermissions(tab);}"/>
                 <items jcr:primaryType="cq:WidgetCollection">
                     <text1
                             jcr:primaryType="cq:Widget"
@@ -153,6 +171,9 @@
             <yTab3
                     jcr:primaryType="cq:Panel"
                     title="y Tab 3">
+                <listeners
+                        jcr:primaryType="nt:unstructured"
+                        render="function(tab){DD.Tabs.cacheFieldsPermissions(tab);}"/>
                 <items jcr:primaryType="cq:WidgetCollection">
                     <text1
                             jcr:primaryType="cq:Widget"
@@ -171,6 +192,9 @@
             <yTab4
                     jcr:primaryType="cq:Panel"
                     title="y Tab 4">
+                <listeners
+                        jcr:primaryType="nt:unstructured"
+                        render="function(tab){DD.Tabs.cacheFieldsPermissions(tab);}"/>
                 <items jcr:primaryType="cq:WidgetCollection">
                     <text1
                             jcr:primaryType="cq:Widget"
@@ -189,6 +213,9 @@
             <zTab1
                     jcr:primaryType="cq:Panel"
                     title="z Tab 1">
+                <listeners
+                        jcr:primaryType="nt:unstructured"
+                        render="function(tab){DD.Tabs.cacheFieldsPermissions(tab);}"/>
                 <items jcr:primaryType="cq:WidgetCollection">
                     <text1
                             jcr:primaryType="cq:Widget"
@@ -207,6 +234,9 @@
             <zTab2
                     jcr:primaryType="cq:Panel"
                     title="z Tab 2">
+                <listeners
+                        jcr:primaryType="nt:unstructured"
+                        render="function(tab){DD.Tabs.cacheFieldsPermissions(tab);}"/>
                 <items jcr:primaryType="cq:WidgetCollection">
                     <text1
                             jcr:primaryType="cq:Widget"
@@ -225,6 +255,9 @@
             <zTab3
                     jcr:primaryType="cq:Panel"
                     title="z Tab 3">
+                <listeners
+                        jcr:primaryType="nt:unstructured"
+                        render="function(tab){DD.Tabs.cacheFieldsPermissions(tab);}"/>
                 <items jcr:primaryType="cq:WidgetCollection">
                     <text1
                             jcr:primaryType="cq:Widget"
@@ -243,6 +276,9 @@
             <zTab4
                     jcr:primaryType="cq:Panel"
                     title="z Tab 4">
+                <listeners
+                        jcr:primaryType="nt:unstructured"
+                        render="function(tab){DD.Tabs.cacheFieldsPermissions(tab);}"/>
                 <items jcr:primaryType="cq:WidgetCollection">
                     <text1
                             jcr:primaryType="cq:Widget"

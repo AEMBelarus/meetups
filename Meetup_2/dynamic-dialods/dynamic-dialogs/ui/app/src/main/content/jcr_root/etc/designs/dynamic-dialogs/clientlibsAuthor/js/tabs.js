@@ -15,7 +15,8 @@
             {id:'v_2', tabs:[5,6,7,8]},
             {id:'v_3', tabs:[9,10,11,12]}
         ],
-        tabPanelName: "tabpanel"
+        tabPanelName: "tabpanel",
+        tabFieldsPermissions: {}
     };
 
     /**
@@ -37,6 +38,52 @@
     };
 
     /**
+     * Caches tab fields allowBlank field.
+     * @param tab
+     */
+    var cacheTabFieldsPermissions = function(tab){
+        if (! Tabs.tabFieldsPermissions[tab.getId()]){
+            Tabs.tabFieldsPermissions[tab.getId()] = {};
+            var field, fields =  tab.items.items;
+            for (var i= 0, length = fields.length; i<length;i++){
+                field = fields[i];
+                Tabs.tabFieldsPermissions[tab.getId()][field.getId()] = field['allowBlank'];
+            }
+        }
+    };
+
+    /**
+     * Clean allowBlank field of tabs fields
+     * @param tab
+     */
+    var cleanTabFieldsPermissions = function(tab){
+        var field, fields =  tab.items.items;
+        for (var i= 0, length = fields.length; i<length;i++){
+            field = fields[i];
+            if('allowBlank' in field){
+                field['allowBlank'] = true;
+            }
+        }
+    };
+
+
+    /**
+     * Restore allowBlank field of tabs fields
+     * @param tab
+     */
+    var restoreTabFieldsPermissions = function(tab){
+        var field, fields =  tab.items.items;
+        for (var i= 0, length = fields.length; i<length;i++){
+            field = fields[i];
+            if(tab.getId() in Tabs.tabFieldsPermissions) {
+                if (field.getId() in Tabs.tabFieldsPermissions[tab.getId()]) {
+                    field['allowBlank'] = Tabs.tabFieldsPermissions[tab.getId()][field.getId()];
+                }
+            }
+        }
+    };
+
+    /**
      * Manages the tabs of the specified tab panel.
      * Tabs which allowed into config will be shown,
      * the others will be hidden.
@@ -46,11 +93,22 @@
 
         for (var i = 1; i != Tabs.tabs.length; i++) {
             if (config && config.tabs.indexOf(i) >= 0) {
+                restoreTabFieldsPermissions(tabPanel.getItem(i));
                 tabPanel.unhideTabStripItem(i);
             } else {
+                cleanTabFieldsPermissions(tabPanel.getItem(i));
                 tabPanel.hideTabStripItem(i);
             }
         }
+        //tabPanel.doLayout();
+    };
+
+
+    /**
+     * Hides specified tab.
+     */
+    Tabs.cacheFieldsPermissions = function(tab) {
+        cacheTabFieldsPermissions(tab);
     };
 
     /**
