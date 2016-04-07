@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <config
+                jcr:primaryType="cq:Panel"
+                title="Switch Tabs">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <selection
+                        jcr:primaryType="cq:Widget"
+                        defaultValue="v_1"
+                        fieldLabel="Select tab"
+                        name="./selection"
+                        type="select"
+                        xtype="selection">
+                        <options jcr:primaryType="cq:WidgetCollection">
+                            <v1
+                                jcr:primaryType="nt:unstructured"
+                                text="Show Tabs X"
+                                value="v_1"/>
+                            <v2
+                                jcr:primaryType="nt:unstructured"
+                                text="Show Tabs Y"
+                                value="v_2"/>
+                            <v3
+                                jcr:primaryType="nt:unstructured"
+                                text="Show Tabs Z"
+                                value="v_3"/>
+                        </options>
+                    </selection>
+                </items>
+            </config>
+            <xTab1
+                jcr:primaryType="cq:Panel"
+                title="x Tab 1">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text1
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Text 1"
+                        name="./xTab1_text1"
+                        allowBlank="false"
+                        xtype="textfield"/>
+                    <text2
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Text 2"
+                        name="./xTab1_text2"
+                        allowBlank="false"
+                        xtype="textfield"/>
+                </items>
+            </xTab1>
+            <xTab2
+                    jcr:primaryType="cq:Panel"
+                    title="x Tab 2">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text1
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 1"
+                            name="./xTab2_text1"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                    <text2
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 2"
+                            name="./xTab2_text2"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                </items>
+            </xTab2>
+            <xTab3
+                    jcr:primaryType="cq:Panel"
+                    title="x Tab 3">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text1
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 1"
+                            name="./xTab3_text1"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                    <text2
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 2"
+                            name="./xTab3_text2"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                </items>
+            </xTab3>
+            <xTab4
+                    jcr:primaryType="cq:Panel"
+                    title="x Tab 4">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text1
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 1"
+                            name="./xTab4_text1"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                    <text2
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 2"
+                            name="./xTab4_text2"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                </items>
+            </xTab4>
+            <yTab1
+                    jcr:primaryType="cq:Panel"
+                    title="y Tab 1">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text1
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 1"
+                            name="./yTab1_text1"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                    <text2
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 2"
+                            name="./yTab1_text2"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                </items>
+            </yTab1>
+            <yTab2
+                    jcr:primaryType="cq:Panel"
+                    title="y Tab 2">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text1
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 1"
+                            name="./yTab2_text1"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                    <text2
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 2"
+                            name="./yTab2_text2"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                </items>
+            </yTab2>
+            <yTab3
+                    jcr:primaryType="cq:Panel"
+                    title="y Tab 3">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text1
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 1"
+                            name="./yTab3_text1"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                    <text2
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 2"
+                            name="./yTab3_text2"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                </items>
+            </yTab3>
+            <yTab4
+                    jcr:primaryType="cq:Panel"
+                    title="y Tab 4">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text1
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 1"
+                            name="./yTab4_text1"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                    <text2
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 2"
+                            name="./yTab4_text2"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                </items>
+            </yTab4>
+            <zTab1
+                    jcr:primaryType="cq:Panel"
+                    title="z Tab 1">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text1
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 1"
+                            name="./zTab1_text1"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                    <text2
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 2"
+                            name="./zTab1_text2"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                </items>
+            </zTab1>
+            <zTab2
+                    jcr:primaryType="cq:Panel"
+                    title="z Tab 2">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text1
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 1"
+                            name="./zTab2_text1"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                    <text2
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 2"
+                            name="./zTab2_text2"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                </items>
+            </zTab2>
+            <zTab3
+                    jcr:primaryType="cq:Panel"
+                    title="z Tab 3">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text1
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 1"
+                            name="./zTab3_text1"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                    <text2
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 2"
+                            name="./zTab3_text2"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                </items>
+            </zTab3>
+            <zTab4
+                    jcr:primaryType="cq:Panel"
+                    title="z Tab 4">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text1
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 1"
+                            name="./zTab4_text1"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                    <text2
+                            jcr:primaryType="cq:Widget"
+                            fieldLabel="Text 2"
+                            name="./zTab4_text2"
+                            allowBlank="false"
+                            xtype="textfield"/>
+                </items>
+            </zTab4>
+        </items>
+    </items>
+</jcr:root>
