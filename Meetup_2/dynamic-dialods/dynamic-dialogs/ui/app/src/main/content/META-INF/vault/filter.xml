@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/dynamic-dialogs/components"/>
+    <filter root="/apps/dynamic-dialogs/templates"/>
+    <filter root="/apps/dynamic-dialogs/install"/>
+    <filter root="/etc/designs/dynamic-dialogs"/>
+</workspaceFilter>

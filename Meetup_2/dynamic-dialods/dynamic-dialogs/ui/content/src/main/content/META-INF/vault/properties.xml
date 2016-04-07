@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>FileVault Package Properties</comment>
+<entry key="buildCount">${buildNumber}</entry>
+<entry key="version">${project.version}</entry>
+<entry key="packageFormatVersion">2</entry>
+<entry key="description">${project.description}</entry>
+<entry key="group">dynamic-dialogs</entry>
+<entry key="name">${project.artifactId}</entry>
+<entry key="path">/etc/packages/${project.groupId}/${project.artifactId}-${project.version}.zip</entry>
+</properties>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd ">
+    <modelVersion>4.0.0</modelVersion>
+    <!-- ====================================================================== -->
+    <!-- P A R E N T P R O J E C T D E S C R I P T I O N -->
+    <!-- ====================================================================== -->
+    <parent>
+        <groupId>by.minsk.aem</groupId>
+        <artifactId>dynamic-dialogs</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <!-- ====================================================================== -->
+    <!-- P R O J E C T D E S C R I P T I O N -->
+    <!-- ====================================================================== -->
+
+    <artifactId>ui</artifactId>
+    <packaging>pom</packaging>
+
+    <profiles>
+        <profile>
+            <id>full</id>
+            <modules>
+                <module>config</module>
+                <module>content</module>
+            </modules>
+        </profile>
+    </profiles>
+
+    <modules>
+        <module>app</module>
+    </modules>
+
+</project>

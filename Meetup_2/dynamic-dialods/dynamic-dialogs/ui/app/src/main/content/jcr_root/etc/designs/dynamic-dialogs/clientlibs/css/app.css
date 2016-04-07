@@ -1,0 +1,25 @@
+.page{
+    position: relative;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: chocolate;
+}
+
+.footer{
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 60px;
+    background-color: chocolate;
+}
+
+.content{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #BAB9B9;
+}

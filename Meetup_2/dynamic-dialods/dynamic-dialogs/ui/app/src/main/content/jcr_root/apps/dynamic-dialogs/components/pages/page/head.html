@@ -1,0 +1,14 @@
+<meta data-sly-use.head="/libs/wcm/foundation/components/page/head.js"
+      data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"
+      data-sly-unwrap />
+<meta data-sly-test="${!wcmmode.disabled}" data-sly-include="author.html" data-sly-unwrap />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-language" content="en">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="keywords" content="${head.keywords}">
+<meta name="description" content="${head.description}" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<meta data-sly-call="${clientLib.all @ categories='dynamic.dialogs'}" data-sly-unwrap />
+
+<title>${currentPage.title}</title>
