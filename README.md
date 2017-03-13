@@ -16,3 +16,14 @@ This project contains meetup's presentations
 * QueryBuilder and Custom Predicates
 * Queries in AEM. JCR-SQL2.
 
+## Meetup_4
+* Dispacther. Tips and Tricks 
+* SSO integration with AEM
+* Кастомный touch-UI RTE-plugin для добавления картинок в touch-UI WYSIWYG
+
+## Meetup_6
+* Jersey + Swagger = RESTful API in AEM
+* Named Transform Image Servlet
+
+## Meetup_7
+* OSGI specification-based approach to configuring
