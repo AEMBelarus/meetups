@@ -21,6 +21,9 @@ This project contains meetup's presentations
 * SSO integration with AEM
 * Кастомный touch-UI RTE-plugin для добавления картинок в touch-UI WYSIWYG
 
+## Meetup_5
+* Расширения функциональности плагина АЕМ из коробки
+
 ## Meetup_6
 * Jersey + Swagger = RESTful API in AEM
 * Named Transform Image Servlet
