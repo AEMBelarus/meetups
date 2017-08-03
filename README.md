@@ -34,3 +34,7 @@ This project contains meetup's presentations
 ## Meetup_8
 * Разграничение прав доступа к данным в NOSQL хранилище
 * CDN- Быстрая доставка контента
+
+## Meetup_9
+* Интеграция AEM с внешним медиа-сервером
+* Генерация сервисов Apache Felix при помощи Swagger и Retrofit
