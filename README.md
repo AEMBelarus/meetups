@@ -27,6 +27,7 @@ This project contains meetup's presentations
 ## Meetup_6
 * Jersey + Swagger = RESTful API in AEM
 * Named Transform Image Servlet
+* AEM Health checks 
 
 ## Meetup_7
 * OSGI specification-based approach to configuring
