@@ -31,6 +31,7 @@ This project contains meetup's presentations
 
 ## Meetup_7
 * OSGI specification-based approach to configuring
+* Single page applications with AEM
 
 ## Meetup_8
 * Разграничение прав доступа к данным в NOSQL хранилище
