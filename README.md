@@ -19,10 +19,10 @@ This project contains meetup's presentations
 ## Meetup_4
 * Dispacther. Tips and Tricks 
 * SSO integration with AEM
-* Кастомный touch-UI RTE-plugin для добавления картинок в touch-UI WYSIWYG
+* Custom touch-UI RTE-plugin for adding pictures to touch-UI WYSIWYG
 
 ## Meetup_5
-* Расширения функциональности плагина АЕМ из коробки
+* Functionality extension of the AEM plug-in out of the box
 
 ## Meetup_6
 * Jersey + Swagger = RESTful API in AEM
@@ -34,9 +34,14 @@ This project contains meetup's presentations
 * Single page applications with AEM
 
 ## Meetup_8
-* Разграничение прав доступа к данным в NOSQL хранилище
-* CDN- Быстрая доставка контента
+* Permission-sensitive content in NoSQL storage
+* Fast Content Delivery
 
 ## Meetup_9
-* Интеграция AEM с внешним медиа-сервером
-* Генерация сервисов Apache Felix при помощи Swagger и Retrofit
+* Integrating AEM with external media server
+* Generate Apache Felix services with help of Swagger and Retrofit
+
+## Meetup_10
+* AOP implementation in OSGi with AspectJ
+* Challenges on golf project
+* Manage content using Experience Fragments in 6.3
