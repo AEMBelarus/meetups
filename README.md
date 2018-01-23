@@ -47,4 +47,4 @@ This project contains meetup's presentations
 * Manage content using Experience Fragments in 6.3
 
 ## Meetup_11
-* AEM MARKETING SOLUTIONS FOR THE FINANCIAL SECTOR
+* AEM Marketing Solutions for the financial sector
