@@ -45,3 +45,6 @@ This project contains meetup's presentations
 * AOP implementation in OSGi with AspectJ
 * Challenges on golf project
 * Manage content using Experience Fragments in 6.3
+
+## Meetup_11
+* AEM MARKETING SOLUTIONS FOR THE FINANCIAL SECTOR
